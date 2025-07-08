@@ -1,0 +1,9 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  max-width: 800px;
+  line-height: 1.6;
+}
+nav a {
+  margin-right: 1rem;
+}
