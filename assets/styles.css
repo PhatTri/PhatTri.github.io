@@ -1,9 +1,33 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
-  margin: 2rem;
-  max-width: 800px;
+  margin: 0;
+  max-width: none;
   line-height: 1.6;
+  /* Remove flexbox properties */
 }
+
 nav a {
   margin-right: 1rem;
+}
+.navbar {
+  font-size: 1.3rem; /* This will affect all text inside the navbar */
+  text-align: right;
+  margin-bottom: 2rem;
+}
+.navbar a {
+  font-size: 1.3rem; /* Adjust the number as you like (e.g., 1.5rem for even bigger) */
+  margin-left: 1rem; /* Keeps spacing between links */
+  text-decoration: none; /* Optional: removes underline */
+}
+.container {
+  max-width: 800px;
+  margin: 2rem auto 0 auto; /* Top margin, horizontally centred */
+  padding: 2rem 1rem;
+  
 }
